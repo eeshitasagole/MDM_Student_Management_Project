@@ -1,0 +1,13 @@
+{
+  "name": "student-management-frontend",
+  "version": "1.0.0",
+  "description": "Frontend tooling for the Student Management System (served with Node.js)",
+  "private": true,
+  "scripts": {
+    "start": "http-server frontend -p 3000 -c-1 -o",
+    "lint": "eslint frontend/app.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
